@@ -1,0 +1,509 @@
+@font-face {
+    font-family: "netflix";
+    src: url("/fonts/main/NetflixSans-Regular.otf");
+}
+@font-face {
+    font-family: "netflix1";
+    src: url("/fonts/main/NetflixSans-Bold.otf");
+}
+
+* {
+    margin: 0;
+    font-family: "netflix", "netflix1";
+    border: border-box; 
+    
+}
+
+/* body */
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+.container {
+    height: 1102px;
+    width: 1519px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("/images/hero.jpg");
+    background-size: cover;
+}
+
+.navbar {
+    margin: 0px 100px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 40px;
+    width: 100px;
+}
+
+.logo img{
+    height: 40px;
+    width: 148px;
+}
+
+/* signinform */
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+    width: 370px;
+    margin: 0 555px;
+    padding: 0px 40px;
+    background-color: rgba(0, 0, 0, 0.725);
+}
+
+.box-content{
+    height: 210px;
+    margin: 70px 20px;
+}
+
+.box-content input{
+    margin-bottom: 15px;
+    height: 35px;
+    width: 300px;
+    padding: 8px 16px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.box-content h1{
+    margin-bottom: 30px;
+
+}
+
+.box-content button{
+    cursor: pointer;
+    height: 48px;
+    width: 330px;
+    margin: 24px 0px 12px;
+    padding: 16px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* .box-content button a{
+    
+} */
+
+/* .checkmark{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.checkmark input{
+    width: 18px;
+    height: 18px;
+
+}
+
+.checkmark p{
+    font-size: 0.85rem;
+    color: #B3B3B3;
+}
+
+.remb{
+    width: 235px;
+} */
+
+.sign-up-sec{
+    display: flex;
+    gap: 2px;
+    margin-left: 22px;
+}
+
+.sign-up-sec p{
+    font-size: 0.95rem;
+    color: #737373;
+}
+
+.sign-up-sec a{
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sign-up-sec a:hover{
+    text-decoration: underline;
+}
+
+
+/* footer */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.foot-panel{
+    margin: 0px 174px;
+    height: 195px;
+    width: 1170px;
+    margin-top: 100px;
+    padding: 30px 0px;
+    color: #737373;
+}
+
+.sec1{
+    height: 30px;
+    font-size: 1rem;
+}
+
+.sec2{
+    display: flex;
+    height: 64px;
+    width: 1170px;
+    padding: 12px 0px;
+
+}
+
+.sec2 ul a{
+    display: block;
+    color: #737373;
+    font-size: 0.80rem;
+    width: 300px;
+    padding: 9px 0px;
+}
+
+.sec2 ul{
+    padding-inline-start: 0px;
+}
+
+.sec3{
+    display: flex;
+    margin: 22px 0px;
+    padding: 22px 0px;
+    justify-content: baseline;
+    gap: 20px;
+}
+
+.lang-icon{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 5px;
+    display: flex;
+    height: 32px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-icon i{
+    height: 16px;
+    width: 16px;
+    font-size: 1rem;
+    color: #737373;
+}
+
+.lang-icon select{
+    background-color: transparent;
+    color: #737373;
+    font-size: 0.85rem;
+    border: none;
+    height: 28px;
+    width: 90px;
+}
+
+
+/* Design for larger than 1519px devices */
+
+
+@media only screen and (min-width: 1540px) {
+
+    .container {
+        height: 2204px;
+        width: 3038px;
+    }
+    
+    .navbar {
+        height: 180px;
+    }
+    
+    .nav-logo {
+        height: 80px;
+    }
+    
+    .logo img{
+        height: 80px;
+        width: 296px;
+    }
+    
+    /* signinform */
+    
+    .box{
+        height: 1320px;
+        width: 740px;
+        margin: 0 1110px;
+        
+    }
+    
+    .box-content{
+        height: 420px;
+        margin: 140px 40px;
+    }
+    
+    .box-content input{
+        margin-bottom: 30px;
+        height: 70px;
+        width: 600px;
+        padding: 16px 16px;
+        font-size: 1.8rem;
+    }
+    
+    .box-content h1{
+        margin-bottom: 30px;
+        font-size: 4rem;
+    }
+    
+    .box-content button{
+        height: 96px;
+        width: 635px;
+        margin: 48px 0px 24px;
+        border-radius: 8px;
+        font-size: 2rem;
+    }
+    
+    /* .box-content button a{
+        
+    } */
+    
+    /* .checkmark{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .checkmark input{
+        width: 18px;
+        height: 18px;
+    
+    }
+    
+    .checkmark p{
+        font-size: 0.85rem;
+        color: #B3B3B3;
+    }
+    
+    .remb{
+        width: 235px;
+    } */
+    
+    .sign-up-sec{
+        margin-left: 44px;
+    }
+    
+    .sign-up-sec p{
+        font-size: 1.9rem;
+    }
+    
+    .sign-up-sec a{
+        font-size: 2rem;
+    }    
+    
+    /* footer */
+    
+    .foot-panel{
+        margin: 0px 348px;
+        height: 390px;
+        width: 2340px;
+        margin-top: 200px;
+        padding: 60px 0px;
+    }
+    
+    .sec1{
+        height: 60px;
+        font-size: 2rem;
+    }
+    
+    .sec2{
+        height: 128px;
+        width: 2340px;
+    
+    }
+    
+    .sec2 ul a{
+        font-size: 1.8rem;
+        width: 600px;
+    }
+    
+    .sec3{
+        margin: 44px 0px;
+    }
+    
+    .lang-icon{
+        height: 64px;
+    }
+    
+    .lang-icon i{
+        height: 32px;
+        width: 32px;
+        font-size: 2rem;
+    }
+    
+    .lang-icon select{
+        font-size: 1.85rem;
+        height: 56px;
+        width: 180px;
+    }
+    
+}
+
+
+/* Design for smaller than 540px devices */
+
+
+@media only screen and (max-width: 912px) {
+    .container {
+        height: 3100px;
+        width: 1400px;
+    }
+    
+    .navbar {
+        margin-left: 100px;
+        height: 180px;
+    }
+    
+    .nav-logo {
+        height: 80px;
+        width: 100px;
+    }
+    
+    .logo img{
+        height: 80px;
+        width: 296px;
+    }
+    
+    /* signinform */
+    
+    .box{
+        height: 1500px;
+        width: 800px;
+        margin: 0px  277.5px;
+        margin-top: 300px;
+    }
+    
+    .box-content{
+        height: 420px;
+        margin: 140px 60px;
+    }
+    
+    .box-content input{
+        margin-bottom: 30px;
+        height: 70px;
+        width: 600px;
+        padding: 16px 16px;
+        font-size: 2rem;
+    }
+    
+    .box-content h1{
+        margin-bottom: 60px;
+        font-size: 4rem;
+    
+    }
+    
+    .box-content button{
+        height: 96px;
+        width: 635px;
+        margin: 48px 0px 24px;
+        border-radius: 8px;
+        font-size: 2rem;
+    }
+    
+    /* .box-content button a{
+        
+    } */
+    
+    /* .checkmark{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .checkmark input{
+        width: 18px;
+        height: 18px;
+    
+    }
+    
+    .checkmark p{
+        font-size: 0.85rem;
+        color: #B3B3B3;
+    }
+    
+    .remb{
+        width: 235px;
+    } */
+    
+    .sign-up-sec{
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    
+    .sign-up-sec p{
+        font-size: 1.95rem;
+    }
+    
+    .sign-up-sec a{
+        font-size: 2rem;
+    }
+    
+    /* footer */
+    
+    .foot-panel{
+        margin: 0px 174px;
+        height: 390px;
+        width: 1170px;
+        margin-top: 600px;
+        padding: 64px 0px;
+    }
+    
+    .sec1{
+        height: 60px;
+        font-size: 2rem;
+    }
+    
+    .sec2{
+        height: 128px;
+        width: 1170px;
+    
+    }
+    
+    .sec2 ul a{
+        font-size: 1.7rem;
+        width: 300px;
+    }
+    
+    .sec3{
+        margin: 44px 0px;
+        padding: 44px 0px;
+    }
+    
+    .lang-icon{
+        height: 64px;
+    }
+    
+    .lang-icon i{
+        height: 32px;
+        width: 32px;
+        font-size: 2rem;
+    }
+    
+    .lang-icon select{
+        font-size: 1.85rem;
+        height: 56px;
+        width: 180px;
+    }
+    
+}

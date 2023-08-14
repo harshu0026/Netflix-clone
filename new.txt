@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/netflix.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+    <div class="hero-section">
+        <header>
+            <div class="navbar">
+                <div class="navlogo">
+                    <div class="logo"><img src="/images/Logonetflix.png" alt="logo"></div>
+                </div>
+                <div class="lng-user">
+                    <div class="lang-change">
+                        <i class="fa-solid fa-globe"></i>
+                        <select name="sel-lang">
+                            <option>English</option>
+                        </select>
+                    </div>
+                    <div class="user-auth">
+                        <button><a href="/login">Sign in</a></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="hero-msg">
+            <h1>Unlimited movies, TV shows and more</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="msg">
+                <input type="text" placeholder="Email address">
+                <button><a href="/register">Get Started</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-sec">
+            <div class="text">
+                <h1>Enjoy on your TV</h1>
+                <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+            </div>
+            <div class="image" style="background-image: url('/images/tv.png');"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-sec">
+            <div class="image" style="background-image: url('/images/mobile-0819.png');"></div>
+            <div class="text">
+                <h1>Download your shows to watch offline</h1>
+                <h3>Save your favourites easily and always have something to watch.</h3>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-sec">
+            <div class="text">
+                <h1>Watch everywhere</h1>
+                <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+            </div>
+            <div class="image" style="background-image: url('/images/device-pile-in.png');"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-sec">
+            <div class="image" style="background-image: url('/images/cartoon.png');"></div>
+            <div class="text">
+                <h1>Create profiles for kids</h1>
+                <h3>Send children on adventures with their favourite characters in a space made just for them—free with
+                    your membership.</h3>
+            </div>
+        </div>
+    </div>
+    <div class="FAQ">
+        <h1>Frequently Asked Questions</h1>
+        <div class="question">
+            <p>What is Netflix?</p>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="question">
+            <p>How much does Netflix costs?</p>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="question">
+            <p>Where can I watch?</p>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="question">
+            <p>How do I cancel?</p>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="question">
+            <p>What can I watch on Netflix?</p>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="question">
+            <p>Is Netflix good for kids?</p>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="subs">
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="msg">
+                <input type="text" placeholder="Email address">
+                <button><a href="/register">Get Started</a></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-panel">
+            <div class="sec1">
+                <p>Questions? Call 000-800-919-1694</p>
+            </div>
+            <div class="sec2">
+                <ul>
+                    <a>FAQ</a>
+                    <a>Media Centre</a>
+                    <a>Ways to Watch</a>
+                    <a>Cookie Preferences</a>
+                    <a>Speed Test</a>
+                </ul>
+                <ul>
+                    <a>Help Centre</a>
+                    <a>Investor Relations</a>
+                    <a>Terms of Use</a>
+                    <a>Corporate Informations</a>
+                    <a>Legal Notices</a>
+                </ul>
+                <ul>
+                    <a>Accounts</a>
+                    <a>Jobs</a>
+                    <a>Privacy</a>
+                    <a>Contact Us</a>
+                    <a>Only on Netflix</a>
+                </ul>
+            </div>
+            <div class="sec3">
+                <div class="lang-icon">
+                    <i class="fa-solid fa-globe"></i>
+                    <select name="lang">
+                        <option>English</option>
+                    </select>
+                </div>
+            </div>
+            <div class="sec4">
+                <p>Netflix India</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/netflix.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <div class="navlogo">
+                    <div class="logo"><img src="/images/Logonetflix.png" alt="logo"></div>
+                </div>
+            </div>
+        </header>
+        <div class="box">
+            <form action="/login" method="post">
+                <div class="box-content">
+                    <h1>Sign In</h1>
+                    <input type="email" placeholder="Email or phone number" name="username">
+                    <input type="password" placeholder="Password" name="password">
+                    <button type="submit">Sign In</a></button>
+                    <!-- <div class="checkmark">
+                        <input type="checkbox">
+                        <p class="remb">Remember me</p>
+                        <p>Need help?</p>
+                    </div> -->
+                </div>
+            </form>
+            <div class="sign-up-sec">
+                <p>New to Netflix?</p>
+                <a href="/register">Sign up now</a>
+            </div>
+        </div>
+        <footer>
+            <div class="foot-panel">
+                <div class="sec1">
+                    <p>Questions? Call 000-800-919-1694</p>
+                </div>
+                <div class="sec2">
+                    <ul>
+                        <a>FAQ</a>
+                        <a>Cookie Preferences</a>
+                    </ul>
+                    <ul>
+                        <a>Help Centre</a>
+                        <a>Corporate Informations</a>
+                    </ul>
+                    <ul>
+                        <a>Privacy</a>
+                    </ul>
+                </div>
+                <div class="sec3">
+                    <div class="lang-icon">
+                        <i class="fa-solid fa-globe"></i>
+                        <select name="lang">
+                            <option>English</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/netflix.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <div class="navlogo">
+                    <div class="logo"><img src="/images/Logonetflix.png" alt="logo"></div>
+                </div>
+            </div>
+        </header>
+        <div class="box">
+            <form action="/register" method="post">
+                <div class="box-content">
+                    <h1>Sign Up</h1>
+                    <input type="email" placeholder="Email or phone number" name="username">
+                    <input type="password" placeholder="Password" name="password">
+                    <button type="submit">Sign Up</a></button>
+                </div>
+            </form>
+            <div class="sign-up-sec">
+                <p>Already have an account?</p>
+                <a href="/login">Sign In</a>
+            </div>
+        </div>
+        <footer>
+            <div class="foot-panel">
+                <div class="sec1">
+                    <p>Questions? Call 000-800-919-1694</p>
+                </div>
+                <div class="sec2">
+                    <ul>
+                        <a>FAQ</a>
+                        <a>Cookie Preferences</a>
+                    </ul>
+                    <ul>
+                        <a>Help Centre</a>
+                        <a>Corporate Informations</a>
+                    </ul>
+                    <ul>
+                        <a>Privacy</a>
+                    </ul>
+                </div>
+                <div class="sec3">
+                    <div class="lang-icon">
+                        <i class="fa-solid fa-globe"></i>
+                        <select name="lang">
+                            <option>English</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/netflix.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/home.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <div class="navlogo">
+                    <div class="logo"><img src="/images/Logonetflix.png" alt="logo"></div>
+                </div>
+                <div class="nav-menu">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/tvshow">TV Show</a></li>
+                    <li><a href="movies">Movies</a></li>
+                    <li><a href="latest">Latest</a></li>
+                </div>
+                <div class="nav-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bell"></i>
+                    <p>Account</p>
+                </div>
+            </div>
+        </header>
+        <div class="hero-msg">
+            <h1>STRANGER THINGS 4</h1>
+            <p>When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying
+                supernatural forces and a strange little girl.</p>
+        </div>
+        <div class="buttons">
+            <div class="play-button">
+                <button><i class="fa-solid fa-play"></i><a href="/play">Play</a></button>
+            </div>
+            <div class="mylist">
+                <button><i class="fa-solid fa-plus"></i><a href="/mylist">My List</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="heading1">
+        <p>Popular on Netflix</p>
+    </div>
+    <div class="content-sec">
+        <div class="box">
+            <div class="box-img"><img src="/images/download.jpeg" alt=""></div>
+        </div>
+        <div class="box">
+            <div class="box-img"><img src="/images/enola holmes 2.jpeg" alt=""></div>
+        </div>
+        <div class="box">
+            <div class="box-img"><img src="/images/wednesday.jpeg" alt=""></div>
+        </div>
+        <div class="box">
+            <div class="box-img"><img src="/images/strangerthings.jpeg" alt=""></div>
+        </div>
+        <div class="box">
+            <div class="box-img"><img src="/images/the gray man.jpeg" alt=""></div>
+        </div>
+        <div class="box">
+            <div class="box-img"><img src="/images/the man from toranto.jpeg" alt=""></div>
+        </div>
+        <div class="box">
+            <div class="box-img"><img src="/images/furioza.jpeg" alt=""></div>
+        </div>
+        <div class="box">
+            <div class="box-img"><img src="/images/troll.jpeg" alt=""></div>
+        </div>
+        <div class="box">
+            <div class="box-img"><img src="/images/black crab.jpeg" alt=""></div>
+        </div>
+        <div class="box">
+            <div class="box-img"><img src="/images/carter.jpeg" alt=""></div>
+        </div>
+    </div>
+    <div class="heading2">
+        <p>Trending Now</p>
+    </div>
+    <div class="content-sec1">
+        <div class="box1">
+            <div class="box-img1"><img src="/images/download.jpeg" alt=""></div>
+        </div>
+        <div class="box1">
+            <div class="box-img1"><img src="/images/they clone.jpeg" alt=""></div>
+        </div>
+        <div class="box1">
+            <div class="box-img1"><img src="/images/the mother.jpeg" alt=""></div>
+        </div>
+        <div class="box1">
+            <div class="box-img1"><img src="/images/a man.jpeg" alt=""></div>
+        </div>
+        <div class="box1">
+            <div class="box-img1"><img src="/images/the magician elephent.jpeg" alt=""></div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-panel">
+            <div class="sec1">
+                <p>Questions? Call 000-800-919-1694</p>
+            </div>
+            <div class="sec2">
+                <ul>
+                    <a>FAQ</a>
+                    <a>Media Centre</a>
+                    <a>Ways to Watch</a>
+                    <a>Cookie Preferences</a>
+                    <a>Speed Test</a>
+                </ul>
+                <ul>
+                    <a>Help Centre</a>
+                    <a>Investor Relations</a>
+                    <a>Terms of Use</a>
+                    <a>Corporate Informations</a>
+                    <a>Legal Notices</a>
+                </ul>
+                <ul>
+                    <a>Accounts</a>
+                    <a>Jobs</a>
+                    <a>Privacy</a>
+                    <a>Contact Us</a>
+                    <a>Only on Netflix</a>
+                </ul>
+            </div>
+            <div class="sec3">
+                <div class="lang-icon">
+                    <i class="fa-solid fa-globe"></i>
+                    <select name="lang">
+                        <option>English</option>
+                    </select>
+                </div>
+            </div>
+            <div class="sec4">
+                <p>Netflix India</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things - Season 4</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        border: border-box;
+    }
+    body{
+        background-color: #000;
+    }
+</style>
+<body>
+    <video width="100%" height="700px" controls>
+        <source src="/movie/Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.x264_Vegamovies.NL.mkv" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+</body>
+</html>
+@font-face {
+    font-family: "netflix";
+    src: url("/fonts/main/NetflixSans-Regular.otf");
+}
+@font-face {
+    font-family: "netflix1";
+    src: url("/fonts/main/NetflixSans-Bold.otf");
+}
+
+@font-face {
+    font-family: "strangerthings";
+    src: url("/fonts/ITC Benguiat/BenguiatStd-Bold.otf");
+}
+
+* {
+    margin: 0;
+    font-family: "netflix", "netflix1";
+    border: border-box; 
+    
+}
+
+/* body */
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+body{
+    background: #2d2d2d;
+    color: #fff;
+}
+
+.container {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) ,url("/images/stranger-things.jpg");
+}
+
+.hero-msg{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+    height: 310px;
+    text-align: center;
+    width: 535.6px;
+}
+
+.hero-msg h1{
+    padding-top: 30px;
+    font-family: "strangerthings";
+    font-size: 5rem;
+}
+
+.hero-msg p{
+    text-align: start;
+    margin-left: 30px;
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+
+.navbar {
+    height: 75px;
+    display: flex;
+    background-color: #000;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 30px;
+    width: 100px;
+}
+
+.logo img{
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 35px;
+    width: 148px;
+}
+
+.nav-menu{
+    margin-left: 50px;
+    margin-right: 800px;
+    padding-bottom: 10px;
+    display: flex;
+    height: 30px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li a{
+    font-size: 1.1rem;
+    color: #ffffffB3;
+    text-decoration: none;
+}
+
+.nav-search{
+    display: flex;
+    gap: 15px;
+    color: #ffffffB3;
+}
+
+/* .hero-msg */
+
+.buttons{
+    margin-left: 39px;
+    height: 75px;
+    width: 400px;
+    display: flex;
+    gap: 15px;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.play-button button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    width: 120px;
+    border: none;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+}
+
+.play-button button i{
+    color: #000;
+    font-size: 1.3rem;
+}
+
+.play-button button a{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.mylist button{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    align-items: center;
+    height: 45px;
+    width: 160px;
+    border: none;
+    background-color: rgba(128, 124, 124, 0.525);
+    border-radius: 5px;
+}
+
+.mylist button i{
+    color: #f6f6f6;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+.mylist button a{
+    color: #f6f6f6;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* content */
+
+.content-sec{
+    margin: 0px 45px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.box{
+    padding: 12px;
+    height: 150px;
+    width: 260px;
+}
+
+.box-img img{
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 10px;
+    background-size: cover;
+    width: 100%;
+}
+
+.box-img img:hover{
+    background-color: #2c2929;
+    opacity: 0.8;
+}
+
+.heading1{
+    height: 20px;
+    margin-left: 18px;
+    padding: 30px 0px 0px 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f6f6f6;
+}
+
+
+/* .content-sec1 */
+
+
+.content-sec1{
+    margin: 0px 45px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.box1{
+    padding: 12px;
+    height: 150px;
+    width: 260px;
+}
+
+.box-img1 img{
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 10px;
+    background-size: cover;
+    width: 100%;
+}
+
+.box-img1 img:hover{
+    background-color: #2c2929;
+    opacity: 0.8;
+}
+
+.heading2{
+    height: 20px;
+    margin-left: 18px;
+    padding: 30px 0px 0px 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f6f6f6;
+}
+
+/* foot-panel */
+
+footer{
+    background-color: #000;
+
+}
+
+.foot-panel{
+    height: 360px;
+    margin: 0px 174px;
+    padding: 60px 0px;
+    color: #ffffffB3;
+}
+
+.sec1{
+    height: 44px;
+    font-size: 1.1rem;
+}
+
+.sec2{
+    display: flex;
+    height: 177px;
+    width: 1100px;
+    /* justify-content: space-between; */
+    padding: 12px 0px;
+    /* align-items: center; */
+
+}
+
+.sec2 ul a{
+    display: block;
+    font-size: 0.90rem;
+    width: 382px;
+    padding: 9px 0px;
+    text-decoration: underline;
+}
+
+.sec2 ul{
+    padding-inline-start: 0px;
+}
+
+.sec3{
+    display: flex;
+    margin: 22px 0px;
+    padding: 22px 0px;
+    justify-content: baseline;
+    gap: 20px;
+}
+
+.lang-icon{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 5px;
+    display: flex;
+    height: 32px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-icon i{
+    height: 16px;
+    width: 16px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.lang-icon select{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    height: 28px;
+    width: 90px;
+}
+
+.sec4 p{
+    font-size: 0.90rem;
+}
+@font-face {
+    font-family: "netflix";
+    src: url("/fonts/main/NetflixSans-Regular.otf");
+}
+@font-face {
+    font-family: "netflix1";
+    src: url("/fonts/main/NetflixSans-Bold.otf");
+}
+
+* {
+    margin: 0;
+    font-family: "netflix", "netflix1";
+    border: border-box; 
+    
+}
+
+/* body */
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+.container {
+    height: 1102px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("/images/hero.jpg");
+}
+
+.container1 {
+    height: 755px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url("/images/hero.jpg");
+}
+
+.hero-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.hero-msg h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.navbar {
+    margin-left: 50px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 40px;
+    width: 100px;
+}
+
+.logo img{
+    height: 40px;
+    width: 148px;
+}
+
+/* signinform */
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+    width: 370px;
+    margin: 0 555px;
+    padding: 0px 40px;
+    background-color: rgba(0, 0, 0, 0.725);
+}
+
+.box-content{
+    height: 210px;
+    margin: 70px 20px;
+}
+
+.box-content input{
+    margin-bottom: 15px;
+    height: 35px;
+    width: 300px;
+    padding: 8px 16px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.box-content h1{
+    margin-bottom: 30px;
+
+}
+
+.box-content button{
+    height: 48px;
+    width: 330px;
+    margin: 24px 0px 12px;
+    padding: 16px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* .box-content button a{
+    
+} */
+
+/* .checkmark{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.checkmark input{
+    width: 18px;
+    height: 18px;
+
+}
+
+.checkmark p{
+    font-size: 0.85rem;
+    color: #B3B3B3;
+}
+
+.remb{
+    width: 235px;
+} */
+
+.sign-up-sec{
+    display: flex;
+    gap: 2px;
+    margin-left: 22px;
+}
+
+.sign-up-sec p{
+    font-size: 0.95rem;
+    color: #737373;
+}
+
+.sign-up-sec a{
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sign-up-sec a:hover{
+    text-decoration: underline;
+}
+
+
+/* footer */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.foot-panel{
+    height: 195px;
+    margin: 0px 260px;
+    margin-top: 100px;
+    padding: 30px 0px;
+    color: #737373;
+}
+
+.sec1{
+    height: 30px;
+    font-size: 1rem;
+}
+
+.sec2{
+    display: flex;
+    height: 64px;
+    width: 1170px;
+    padding: 12px 0px;
+
+}
+
+.sec2 ul a{
+    display: block;
+    color: #737373;
+    font-size: 0.80rem;
+    width: 382px;
+    padding: 9px 0px;
+}
+
+.sec2 ul{
+    padding-inline-start: 0px;
+}
+
+.sec3{
+    display: flex;
+    margin: 22px 0px;
+    padding: 22px 0px;
+    justify-content: baseline;
+    gap: 20px;
+}
+
+.lang-icon{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 5px;
+    display: flex;
+    height: 32px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-icon i{
+    height: 16px;
+    width: 16px;
+    font-size: 1rem;
+    color: #737373;
+}
+
+.lang-icon select{
+    background-color: transparent;
+    color: #737373;
+    font-size: 0.85rem;
+    border: none;
+    height: 28px;
+    width: 90px;
+}
+@font-face {
+    font-family: "netflix";
+    src: url("/fonts/main/NetflixSans-Regular.otf");
+}
+
+@font-face {
+    font-family: "netflix1";
+    src: url("/fonts/main/NetflixSans-Bold.otf");
+}
+@font-face {
+    font-family: "netflix2";
+    src: url("/fonts/main/NetflixSans-Medium.otf");
+}
+
+* {
+    margin: 0;
+    font-family: "netflix";
+    border: border-box; 
+    
+}
+
+/* body */
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+.hero-section {
+    border-bottom: 8px solid #232323;
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url("/images/hero.jpg");
+}
+
+
+.navbar {
+    margin: 0px 14px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 40px;
+    width: 100px;
+}
+
+.logo img{
+    margin-right: 600px;
+    height: 40px;
+    width: 148px;
+}
+
+
+/* box2 */
+
+.lng-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.lang-change{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 5px;
+    display: flex;
+    height: 32px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-change i{
+    height: 16px;
+    width: 16px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.lang-change select{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    /* padding-left: 20px; */
+    border: none;
+    height: 28px;
+    width: 90px;
+}
+
+
+/* box3 */
+
+.user-auth{
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-auth button{
+    height: 32px;
+    width: 77px;
+    background-color: #E50914;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.user-auth button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* heromsg */
+
+.hero-msg{
+    margin-top: 150px;
+    height: 250px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-msg h1{
+    font-size: 3.1rem;
+    font-family: "netflix1";
+    font-weight:900;
+}
+
+.hero-msg h3{
+    font-size: 1.5rem;
+}
+
+.hero-msg p{
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.msg{
+    height: 56px;
+    width: 586px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.msg input{
+    width: 376px;
+    padding: 24px 16px ;
+    font-size: 1.1rem;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.msg button{
+    width: 201px;
+    background-color: #E50914;
+    border: none;
+    border-radius: 5px;
+}
+
+.msg button a{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* content-sec */
+
+.content{
+    border-bottom: 8px solid #232323;
+}
+
+.content-sec{
+    padding: 72px 0px;
+    margin: 0px 174px;
+    height: 440px;
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+text{
+    height: 162px;
+    width: 585px;
+    
+}
+
+.text h1{
+    font-size: 2.7rem;
+    margin-bottom: 15px;
+    width: 580px;
+    font-family: "netflix1";
+    font-weight:900;
+}
+
+.text h3{
+    font-size: 1.5rem;
+    width: 580px;
+    font-weight: lighter;
+}
+
+.image{
+    height: 436px;
+    background-size: cover;
+    width: 90%;
+
+}
+
+/* .FAQ */
+
+.FAQ{
+    padding: 72px 0px;
+    display: flex;
+    gap: 10px;
+    border-bottom: 8px solid #232323;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+}
+
+.question{
+    display: flex;
+    width: 1100px;
+    height: 84px;
+    padding: 0px 24px;
+    background-color: #2d2d2d;
+    transition: background 0.3s;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question:hover{
+    background-color: #515050;
+}
+
+.FAQ h1{
+    height: 61px;
+    font-family: "netflix1";
+    padding-bottom: 10px;
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+.question p{
+    font-size: 1.4rem;
+}
+
+.question i{
+    font-size: 2.15rem;
+    font-weight: lighter;
+}
+
+.subs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.subs p{
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+/* footer */
+
+.foot-panel{
+    height: 400px;
+    margin: 0px 174px;
+    padding: 60px 0px;
+    color: #ffffffB3;
+}
+
+.sec1{
+    height: 44px;
+    font-size: 1.1rem;
+}
+
+.sec2{
+    display: flex;
+    height: 177px;
+    width: 1170px;
+    /* justify-content: space-between; */
+    padding: 12px 0px;
+    /* align-items: center; */
+
+}
+
+.sec2 ul a{
+    display: block;
+    font-size: 0.90rem;
+    width: 382px;
+    padding: 9px 0px;
+    text-decoration: underline;
+}
+
+.sec2 ul{
+    padding-inline-start: 0px;
+}
+
+.sec3{
+    display: flex;
+    margin: 22px 0px;
+    padding: 22px 0px;
+    justify-content: baseline;
+    gap: 20px;
+}
+
+.lang-icon{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px 5px;
+    display: flex;
+    height: 32px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-icon i{
+    height: 16px;
+    width: 16px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.lang-icon select{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    height: 28px;
+    width: 90px;
+}
+
+.sec4 p{
+    font-size: 0.90rem;
+}
+import express from "express";
+import ejs from "ejs"
+import mongoose from "mongoose";
+import bodyParser from "body-parser";
+import session from 'express-session';
+import passport from 'passport';
+import passportLocalMongoose from "passport-local-mongoose";
+import findOrCreate from "mongoose-findorcreate";
+
+
+const app = express();
+const port = 3000;
+
+app.set('view engine', 'ejs');
+
+app.use(bodyParser.urlencoded({extended: true}));
+
+app.use(express.static("public"))
+
+app.use(session({
+    secret: "Out littile Secrets",
+    resave: false,
+    saveUninitialized:false
+}));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+mongoose.connect("mongodb://0.0.0.0:27017/userDB2");
+
+const userSchema = new mongoose.Schema({
+    email: String,
+    password: String,
+});
+
+userSchema.plugin(passportLocalMongoose);
+userSchema.plugin(findOrCreate);
+
+const User = mongoose.model("User", userSchema);
+
+passport.use(User.createStrategy());
+
+passport.serializeUser(function(user, cb) {
+    process.nextTick(function() {
+      return cb(null, {
+        id: user.id,
+      });
+    });
+  });
+  
+  passport.deserializeUser(function(user, cb) {
+    process.nextTick(function() {
+      return cb(null, user);
+    });
+  });
+
+app.get("/", (req, res)=>{
+    res.render("index");
+});
+
+app.get("/login", (req, res)=>{
+    res.render("signin");
+});
+
+app.get("/register", (req, res)=>{
+    res.render("signup");
+});
+
+app.get("/home", async (req, res)=>{
+    if(req.isAuthenticated()){
+        res.render("home");
+    }else{
+        res.redirect("/login")
+    }
+});
+app.get("/play", async (req, res)=>{
+    if(req.isAuthenticated()){
+        res.render("movie");
+    }else{
+        res.redirect("/login")
+    }
+});
+
+app.post("/register", (req, res)=>{
+    User.register({username: req.body.username}, req.body.password, (err, user)=>{
+        if(err){
+            console.log(err);
+            res.redirect("/signup");
+        }else{
+            passport.authenticate('local')(req,res,()=>{
+                res.redirect("/home");
+            })
+        }
+    })
+    });
+    
+app.post("/login", async (req, res)=>{
+    const user = new User({
+        username: req.body.username,
+        password: req.body.password,
+    });
+    
+    req.login(user, (err)=>{
+        if(err){
+            console.log(err);
+        }else{
+            passport.authenticate('local')(req,res,()=>{
+                res.redirect("/home");
+            })
+        }
+    });
+});
+
+app.listen(port, (req, res)=>{
+    console.log(`Server is runnig on ${port}`);
+});
